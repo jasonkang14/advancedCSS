@@ -1,0 +1,48 @@
+.text {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .text-wrap {
+    position: relative;
+    width: 180px;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+  
+  .circle {
+    position: relative;
+    background-color: black;
+    opacity: 0.2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .step-1 {
+    font-weight: 100;
+    color: red;
+  }
+  
+  .step-2 {
+    font-weight: 300;
+    color: orange;
+  }
+  
+  .step-3 {
+    font-weight: 500;
+    color: green;
+  }
+  
+  .step-4 {
+    font-weight: 700;
+    color: blue;
+  }
+  
+  .step-5 {
+    font-weight: 900;
+    color: purple;
+  }
+
+  * {
+      cursor: none;
+  }
