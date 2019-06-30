@@ -1,0 +1,25 @@
+$font-stack:    Helvetica, sans-serif
+  
+Button 
+  border: none
+  height: 40px
+  width: 700px
+  font: 25px $font-stack
+  text-decoration: none
+  background-image: linear-gradient(transparent 20%, currentColor 21%)
+  background-position: 0% 100%
+  background-repeat: no-repeat
+  background-size: 0% 3px
+  transition: background-size 0.3s
+  position: relative
+  
+  &:hover, &:focus 
+    background-size: 100% 3px
+  
+
+
+.btn_wrap 
+  position: relative
+  top: 50%
+  left: 30%
+  display: flex
